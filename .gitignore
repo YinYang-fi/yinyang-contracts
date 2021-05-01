@@ -1,0 +1,7 @@
+.secret
+.pkey
+
+/node_modules
+/build
+/scripts
+/verifications
