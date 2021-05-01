@@ -11,13 +11,15 @@ https://yinyang.fi/ - Live website
 **Install deps**
 
 ```sh
-yarn install
+npm install
 ```
 
-**Start the project**
+**Deploy**
+
+Update `truffle-config.js` to use your private key then run:
 
 ```sh
-yarn start
+truffle migrate --network bsc --reset
 ```
 
 ## License
